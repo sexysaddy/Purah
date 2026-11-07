@@ -1,0 +1,4 @@
+# Browser WebSocket client. install.sh installs it; Firefox/CDP remain opt-in in config.
+# Arch Linux: pacman -S python-gobject at-spi2-core gobject-introspection
+# For opt-in Firefox WebDriver BiDi and Chromium CDP (local-only):
+websocket-client>=1.7,<2

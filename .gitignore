@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.log
+.purah_backups/
+config.toml
+env
+
+# secrets / local state
+*.session
+telegram.env
+.env
+env
+yandex_token
+memory.db
+*.db
+*.bak*
+*.zip
+*.tar.gz
+.purah_patch_input.py

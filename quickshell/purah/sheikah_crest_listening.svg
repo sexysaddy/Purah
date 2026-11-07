@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Purah Sheikah crest sheikah_crest_listening</title>
+  <g fill="none" stroke="#63e8ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Interrupted circuit ring and nodes surrounding the eye -->
+    <path d="M104 85 C75 119 53 153 42 194" />
+    <path d="M42 194 C31 205 23 215 21 235" />
+    <path d="M39 235 H67 C75 235 81 239 88 246" />
+    <path d="M78 329 L48 339 L61 385 L117 423 M134 421 L151 390" />
+    <path d="M151 390 C166 365 180 353 199 348" />
+    <path d="M408 85 C438 123 459 159 469 195" />
+    <path d="M469 195 C480 206 488 218 491 235" />
+    <path d="M473 235 H444 C436 235 429 239 422 246" />
+    <path d="M433 329 L463 340 L451 385 L395 423 M378 421 L361 390" />
+    <path d="M361 390 C346 365 332 353 313 348" />
+    <path d="M111 87 C140 63 169 49 193 42" />
+    <path d="M319 42 C345 49 374 64 401 87" />
+  </g>
+  <g fill="#63e8ff">
+    <!-- Three rays above the eye -->
+    <path d="M229 146 L252 78 Q256 68 260 78 L283 146 Z"/>
+    <path d="M123 177 L153 136 Q158 130 162 138 L181 188 Z"/>
+    <path d="M331 188 L350 138 Q354 130 360 136 L389 177 Z"/>
+    <!-- Lower drop, the signature of the Sheikah eye -->
+    <path d="M242 336 Q256 343 270 336 L270 383 Q270 426 256 446 Q242 426 242 383 Z"/>
+  </g>
+  <g fill="none" stroke="#63e8ff" stroke-width="8" stroke-linejoin="round">
+    <!-- Hollow circuit nodes, as in the Sheikah crest -->
+    <circle cx="21" cy="235" r="17"/>
+    <circle cx="491" cy="235" r="17"/>
+    <circle cx="104" cy="72" r="13"/>
+    <circle cx="408" cy="72" r="13"/>
+    <circle cx="125" cy="431" r="12"/>
+    <circle cx="387" cy="431" r="12"/>
+    <circle cx="48" cy="320" r="8"/>
+  </g>
+  <g fill="none" stroke="#63e8ff" stroke-width="9" stroke-linejoin="round">
+    <!-- Main eye outline -->
+    <path d="M83 260 C124 212 184 193 256 193 C328 193 388 212 429 260 C388 307 328 327 256 327 C184 327 124 307 83 260 Z"/>
+    <!-- Upper eyelid and outward curled corners -->
+    <path d="M84 260 C70 257 64 245 66 234 C76 247 88 248 101 245"/>
+    <path d="M428 260 C442 257 448 245 446 234 C436 247 424 248 411 245"/>
+  </g>
+  <circle cx="256" cy="260" r="48" fill="#63e8ff"/>
+  <circle cx="256" cy="260" r="31" fill="#f7fbfc"/>
+  <circle cx="256" cy="260" r="13" fill="#63e8ff"/>
+  <g fill="#63e8ff">
+    <circle cx="142" cy="276" r="5"/>
+    <circle cx="370" cy="276" r="5"/>
+  </g>
+</svg>

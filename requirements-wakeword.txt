@@ -1,0 +1,2 @@
+# Optional, local offline wake phrase recognition. Install with ./setup_voice.sh
+vosk>=0.3.45

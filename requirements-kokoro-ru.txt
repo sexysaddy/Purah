@@ -1,0 +1,12 @@
+# Optional local Russian Kokoro-ru backend; setup_kokoro_ru.sh installs and smoke-tests it.
+# numpy is already in core requirements.txt.
+onnxruntime>=1.18
+huggingface_hub>=0.24
+ruaccent>=1.5.8
+# ru_g2p.py directly imports misaki.espeak. It is intentionally installed separately
+# by setup_kokoro_ru.sh: Misaki 0.9.4 advertises an outdated Python <3.14 cap, so the
+# installer narrowly uses --ignore-requires-python on 3.14 and immediately smoke-tests it.
+# Do not add misaki to this pip -r file or the initial install fails on Python 3.14.
+# The compatible API is phonemizer-fork, not vanilla phonemizer.
+espeakng-loader>=0.2.0
+phonemizer-fork>=3.3.0

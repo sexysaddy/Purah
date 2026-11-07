@@ -1,0 +1,10 @@
+# Core PURAH runtime. Kept in a project-local .venv; the launch script calls its
+# interpreter directly, so no interactive activation is needed at login.
+PySide6>=6.6,<7
+sounddevice>=0.4.6
+numpy>=1.24
+# Required by the default TTS engine; Kokoro/Piper are optional local backends.
+edge-tts>=7.2.0
+
+# Yandex Music API (tool: music)
+yandex-music>=3.2
